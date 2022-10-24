@@ -1,13 +1,16 @@
 Img {
-    Width: 250px;
-    Height: 250px;
- }
- 
- .selector-for-some-widget {
-    box-sizing: content-box;
-  }
+  width: 250px;
+  height: 250px;
+}
 
-  .bg-success {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-  }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(
+    var(--bs-success-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
